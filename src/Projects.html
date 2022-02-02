@@ -80,12 +80,12 @@
                 <div class="d-lg-flex"> 
 
                     <div>
+                        <!-- MY PROJECTS PAGE TITLE -->
                         <h1>My Projects 🚀</h1>
 
+                        <!-- 1 -->
                         <!-- DIVIDER  -->
-                        
                         <hr class="my-4">
-
                         <!-- HEADING WITH COOL LINK SYMBOL AND NEAT TEXT -->
                         <h2 class="my-4">
                             <span class="coolLink">
@@ -96,14 +96,13 @@
                                 </a>
                             </span>
                         </h2>
-
                         <!-- BRIEF DESCRIPTION OF PROJECT -->
                         <p class="lead my-4">
                             2D Platformer games are everything similar to Nintendos' 1985 game, Super Mario Bros.
                             With a simple character that moves on your command with objects to traverse on and a 
                             very simple implementation of physics engine, I made a very simple skeletal 2D game and 
                             intend to test all possible ways to build a procedural level generation model or atleast <em>mimic</em>
-                            the effects of a well-used level generation technique called <b>Perlin Noise</b>.  
+                            the effects of a well-used level generation technique called <b>Perlin Noise</b>. (<em class="text-warning">WIP</em>)
                         </p>
 
                         <!-- <div class="mx-auto text-center">
@@ -117,6 +116,7 @@
     
                         </div> -->
 
+                        <!-- 2 -->
                         <!-- DIVIDER -->
                         <hr class="my-4">
                         <!-- PROJ TITLE -->
@@ -148,7 +148,7 @@
                             
                         </p>
 
-
+                        <!-- 3 -->
                         <!-- DIVIDER -->
                         <hr class="my-4">
                         <!-- PROJ TITLE -->
@@ -162,10 +162,30 @@
                         </h2>
                         <!-- BRIEF DESCRIPTION OF PROJECT -->
                         <p class="lead my-4">
-                            I built a simple Gough-Stewart platform with means of 6 linear actuators, 2 Laser cut 
+                            I built a simple Gough-Stewart platform with means of <b class="text-white-50">6</b> linear actuators, <b class="text-white-50">2</b> Laser cut 
                             acrylic platforms and universial joints. Used a Linear Kalman filter to find accurate roll and pitch angle 
                             data from the noisy IMU readings. Modelled inverse kinematics using simple rotational matrices to get a fully 
                             tilt self-correcting stewart platform.                            
+                        </p>
+
+
+                        <!-- 4 -->
+                        <!-- DIVIDER -->
+                        <hr class="my-4">
+                        <!-- PROJ TITLE -->
+                        <h2 class="my-4" id="eKF">
+                            <span class="coolLink">                                
+                                <a href="#eKF">
+                                    <i class='fa fa-link'></i>
+                                    An Extended Kalman Filter implementation to estimate the State of Charge(SoC) of a Battery
+                                </a>
+                            </span>
+                        </h2>
+                        <!-- BRIEF DESCRIPTION OF PROJECT -->
+                        <p class="lead my-4">
+                           To get very accurate estimates of the State of Charge of Lithium-Ion batteries, using moderate quality sensors which 
+                           may harbor noisy current measurements, an Extended Kalman Filter is implemented on a Microcontroller that measures 
+                           current and voltage readings in real-time and estimates the battery SoC with a model of the battery dynamics.
                         </p>
 
 
