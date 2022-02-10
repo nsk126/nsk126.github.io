@@ -98,7 +98,7 @@
                 <!-- FLEX BOX MAKES ITEMS IN DIV LIKE A ROW -->
                 <div class="d-lg-flex text-start"> 
                     <div>
-                        <h1 class="text-center">Simple Sine wave Generator.</h1>
+                        <h1 class="text-center p-2">Simple Sine wave Generator.</h1>
                         
                         <!-- LEAD GIVES BIGGER TEXT -->
                         
@@ -137,20 +137,29 @@
                         <h4 class="float-md-start mb-0">Frequency</h4>
                         <!-- TITLE FOR TXT DISP FOR SPAN BAR OP -->
                         <div class="float-md-end mb-0" id="optxt1">1</div>
-                        <!-- SPAN BAR CODE -->
-                        <div class="slidecontainer">
-                        <input type="range" min="1" max="100" value="1" class="slider" id="freqRange">
-                        </div>
 
-                        <button class="btn btn-primary btn-lg">
-                            Sine
-                        </button>
-                        <button class="btn btn-primary btn-lg">
-                            Square
-                        </button>
-                        <button class="btn btn-primary btn-lg">
-                            Saw
-                        </button>
+                        <!-- SLIDER BAR CODE -->
+                        <!-- <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="1" class="slider" id="freqRange">
+                        </div> -->
+                        <!-- <label for="customRange3" class="form-label">Frequency</label> -->
+
+
+
+                        <input type="range" class="form-range" min="1" max="100" value="1" step="1" id="freqRange">
+                        
+                        <div class="text-center my-4">
+                            
+                            <button id="bt-sine" onclick="swPlot(this, 'sine')" class="mx-2 btn btn-light btn-lg">
+                                Sine
+                            </button>
+                            <button id="bt-sqr" onclick="swPlot(this, 'sqr')" class="mx-2 btn btn-light btn-lg">
+                                Square
+                            </button>
+                            <button id="bt-saw" onclick="swPlot(this, 'saw')" class="mx-2 btn btn-light btn-lg">
+                                Saw
+                            </button>
+                        </div>
                         
 
                         <!-- SECOND GRAPH FOR INTERACT -->
