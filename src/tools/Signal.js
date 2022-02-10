@@ -94,7 +94,9 @@ function update_plot(freq) {
             var x = Math.sin(global_freq * 2* Math.PI * index/10000);
         }else if (plot2_type == "sqr"){
 
-            x = Math.sign(Math.sin(global_freq * 2* Math.PI * index/10000));            
+            // x = Math.sign(Math.sin(global_freq * 2* Math.PI * index/10000));   
+            
+            x = (-1) ** Math.floor(2*global_freq*index/10000); 
         }else if(plot2_type == "saw"){
             
             x = 2 * (global_freq * index/10000 % 1) - 1;

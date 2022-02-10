@@ -98,11 +98,12 @@
                 <!-- FLEX BOX MAKES ITEMS IN DIV LIKE A ROW -->
                 <div class="d-lg-flex text-start"> 
                     <div>
-                        <h1 class="text-center p-2">Simple Sine wave Generator.</h1>
+                        <h1 class="text-center p-2">Simple Sine wave Generator. (<em class="text-warning">WIP</em>)</h1>
+                        
                         
                         <!-- LEAD GIVES BIGGER TEXT -->
                         
-                        <p class="lead">Sinusoidal Signals take the form of <code>A*Sin(2*&Pi;*f*t)</code></p>
+                        <p class="lead">Sinusoidal Signals take the form of <code>A*Sin(2*&pi;*f*t)</code></p>
                         <p class="lead">Where <b>A</b> is the Amputute or height of the signal. 
                         <b>f</b> is the Frequency of the signal. And <b>t</b> is the time resolution of the signal</p>
                         
@@ -118,8 +119,8 @@
                         <br>
                         <p class="lead">The above graph is a simple demo where a signal with parameters 
                         <br><code>A = 1, f = 4 and t = 0.0001</code><br>
-                        The y-axis is the calculated value of <code>A*Sin(2*&Pi;*f*t)</code> and the x-axis is 
-                        the calculated value of <code>2*&Pi;*f*t</code>. This implies, that the signal generated 
+                        The y-axis is the calculated value of <code>A*Sin(2*&pi;*f*t)</code> and the x-axis is 
+                        the calculated value of <code>2*&pi;*f*t</code>. This implies, that the signal generated 
                         would have an absolute maximum value of <b>1</b>, repeat <b>4</b> times in the time period of interest, 
                         with a resolution of <b>0.0001</b>.
                         </p>
@@ -168,6 +169,29 @@
                         <div class="d-flex">
                         <div id="plot_interact" class="flex-fill text-center my-4"></div>
                         </div>
+
+                        <p class="lead">The Sine wave</p>                        
+                        <ul>
+                            <li>
+                                <code>A*Sin(2*&pi;*f*t)</code>
+                            </li>
+                        </ul>
+
+                        <p class="lead">The Square wave</p>
+                        <ul>
+                            <li>
+                                <code>A * (-1) ^ ⌊2*f*t⌋</code> 
+                                , Using the floor function.
+                            </li>
+                        </ul>
+
+                        <p class="lead">The Sawtooth</p>
+                        <ul>
+                            <li>
+                                <code>A * (2 * (f*t % A) - 1)</code>
+                            </li>
+                        </ul>
+          
 
                     </main>
 
