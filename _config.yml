@@ -90,15 +90,6 @@ analytics:
 
 # Site Author
 author:
-<<<<<<< HEAD
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-=======
   name             : "Suresh Kondepudi"
   avatar           : "profile.png"
   bio              : "MS-Robotics | Arizona State University"
@@ -106,7 +97,6 @@ author:
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
->>>>>>> origin/master
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -116,32 +106,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-<<<<<<< HEAD
-  github           : "academicpages"
-=======
   github           : "nsk126"
->>>>>>> origin/master
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-<<<<<<< HEAD
-  orcid            : "http://orcid.org/yourorcidurl"
-=======
   orcid            : # "http://orcid.org/yourorcidurl"
->>>>>>> origin/master
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-<<<<<<< HEAD
-  twitter          : "replacethistwitterhandle"
-=======
   twitter          : # ""
->>>>>>> origin/master
   vine             :
   weibo            :
   xing             :
@@ -287,11 +265,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-<<<<<<< HEAD
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-=======
 timezone: America/Phoenix # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
->>>>>>> origin/master
 
 
 # Plugins
