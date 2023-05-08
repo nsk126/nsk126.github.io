@@ -7,6 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
+<<<<<<< HEAD
 title                    : "Your Name / Site Title"
 title_separator          : "-"
 name                     : &name "Your Name"
@@ -14,6 +15,15 @@ description              : &description "personal description"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
+=======
+title                    : "Suresh Kondepudi"
+title_separator          : "-"
+name                     : &name "Suresh Kondepudi"
+description              : &description "MS-Robotics | Arizona State University"
+url                      : https://nsk126.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "nsk126/nsk126.github.io"
+>>>>>>> origin/master
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,6 +90,7 @@ analytics:
 
 # Site Author
 author:
+<<<<<<< HEAD
   name             : "Your Sidebar Name"
   avatar           : "profile.png"
   bio              : "Your biography for the left-hand sidebar"
@@ -87,6 +98,15 @@ author:
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
+=======
+  name             : "Suresh Kondepudi"
+  avatar           : "profile.png"
+  bio              : "MS-Robotics | Arizona State University"
+  location         : "Tempe, AZ"
+  employer         :
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : # "http://yourfullgooglescholarurl.com"
+>>>>>>> origin/master
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,20 +116,32 @@ author:
   flickr           :
   facebook         :
   foursquare       :
+<<<<<<< HEAD
   github           : "academicpages"
+=======
+  github           : "nsk126"
+>>>>>>> origin/master
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
+<<<<<<< HEAD
   orcid            : "http://orcid.org/yourorcidurl"
+=======
+  orcid            : # "http://orcid.org/yourorcidurl"
+>>>>>>> origin/master
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
+<<<<<<< HEAD
   twitter          : "replacethistwitterhandle"
+=======
+  twitter          : # ""
+>>>>>>> origin/master
   vine             :
   weibo            :
   xing             :
@@ -255,7 +287,11 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
+<<<<<<< HEAD
 timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+=======
+timezone: America/Phoenix # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+>>>>>>> origin/master
 
 
 # Plugins
