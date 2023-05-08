@@ -24,8 +24,5 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
   gem 'hawkins'
-<<<<<<< HEAD
   gem 'webrick'
-=======
->>>>>>> origin/master
 end
