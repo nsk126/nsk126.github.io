@@ -73,7 +73,7 @@ body
   text-decoration: underline;
 }
 
-/* -------------- 
+/* --------------
 /* --- PAPERS --- */
 /* -------------- */
 
@@ -105,7 +105,7 @@ body
 
 #appendixFont
 {
-  color:#E8AB6B !important; 
+  color:#E8AB6B !important;
 }
 
 
@@ -232,7 +232,7 @@ mathcode
   margin-right: 300px;
   text-align: left;
   font-family: serif;
-  padding: 10px; 
+  padding: 10px;
   max-width: 90%;
   border-style: solid;
 }

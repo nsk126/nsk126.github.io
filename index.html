@@ -1,36 +1,45 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    <!-- page title and icon -->
-    <title>Suresh Kondepudi</title>
-    <link rel="icon" href="images/OC.png" type="image/x-icon">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
+  <!-- page title and icon -->
+  <title>Suresh Kondepudi</title>
+  <link rel="icon" href="images/OC.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="stylesheets/extra_min_styles.css">
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+
+  <meta name="viewport" content="width=device-width">
+  <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- font icons -->
-    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/57136724af/UntitledProject/style-svg.css">
+  <!-- font icons -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/57136724af/UntitledProject/style-svg.css">
 
-    <style>
-      body {
-        background-color: #f1f1f1;
-      }
-    </style>
-  </head>
+  <!-- TAILWIND -->
 
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Suresh Kondepudi</h1>
+
+  <style>
+    body {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1 align="center">Suresh Kondepudi</h1>
+      <div align="center">
+        <!-- photo -->
+        <!-- <img src="images\profile.jpg" alt="Headshot" class="portrait"> -->
         <p>MS-Robotics | Arizona State University</p>
 
         <!-- img -->
@@ -51,39 +60,146 @@
         <a href="https://www.linkedin.com/in/sureshkks/" style="margin-right:14px;">
           <i class="fa fa-linkedin" style="font-size:32px; color:gray;"></i>
         </a>
+      </div>
 
-      </header>
-      <section>
-        <h1>Hi! I'm Suresh 👋</h1>
+      <ul class="navbar" style="margin-top: 10px;">
+        <li class="navbar_li" id="selected"><a href="https://skrish.dev">Home</a></li>
+        <!-- <li class="navbar_li" id="selected"><a href="https://skrish.dev/projects">Projects</a></li> -->
+      </ul>
 
-        <p>
-          I’m an MS-Robotics engineering student at Ariona State University.
-          I’ve an undergrad degree in Electrical & Electronics Engineering at Mahindra École Centrale in 2020.
-        </p>
+    </header>
+    <section>
+      <h1>Hi! I'm Suresh 👋</h1>
 
-        <p>
-          I love Signal processing, Control theory & Perception systems as I program them into Embedded devices foir Robotic applications.
-          One of my works includes an Autonomous Underwater Vehicle.
-          For which, I designed the entire electrical system and wrote firmware for the feedback controllers.
-          I had great fun implementing convoluted algorithms like optical flow, Kalman filters,
-          and full state feedback to make the best out of run-of-the-mill hardware.
-        </p>
+      <p>
+        I’m an MS-Robotics engineering student at Ariona State University.
+        I’ve an undergrad degree in Electrical & Electronics Engineering at Mahindra École Centrale in 2020.
+      </p>
 
-        <p>
-          I enjoy creating small tools that are modular for every project I work on. This <em>“Archive”</em> will be my attempt at making all such tools and devices I made public, with good documentation.
-        </p>
+      <p>
+        I love Signal processing, Control theory & Perception systems as I program them into Embedded devices foir
+        Robotic applications.
+        One of my works includes an Autonomous Underwater Vehicle.
+        For which, I designed the entire electrical system and wrote firmware for the feedback controllers.
+        I had great fun implementing convoluted algorithms like optical flow, Kalman filters,
+        and full state feedback to make the best out of run-of-the-mill hardware.
+      </p>
 
-      </section>
-      <footer>
-        <p>
-          <small>
-            Inspired by <a href="https://github.com/orderedlist/minimal">minimal</a>.
-            And hosted on GitHub Pages. <br>
-            &copy; Suresh Kondepudi 2023
-          </small>
-        </p>
-      </footer>
-    </div>
-    <script src="scripts/scale.fix.js"></script>
-  </body>
+      <p>
+        I enjoy creating small tools that are modular for every project I work on. This <em>“Archive”</em> will be my
+        attempt at making all such tools and devices I made public, with good documentation.
+      </p>
+
+      <br>
+      <br>
+      <h2>Projects</h2>
+
+      <table style="margin-top:-12px;">
+        <!-- Work -->
+        <tbody>
+          <tr style="border-bottom:1px solid #e5e5e5;">
+            <!-- IMAGE -->
+            <td>
+              <img class="workPicture" src="images/AUV_T_POOL.gif" alt="AUV-Dive">
+            </td>
+
+            <!-- TITLE AND INFO -->
+            <td>
+              <br>
+              <div id="indexWorkText">
+                <!-- Title + Link -->
+                <b> Autonomous Underwater Vehicle (<i>AUV</i>) System</b>
+
+                <br>
+                <i>SAUVC 2020</i>
+              </div>
+              <div class="indexWorkText">
+                <a href="https://www.thehansindia.com/hans/young-hans/first-autonomous-underwater-vehicle-black-pearl-created-596194"
+                  class="button" target="_blank">Media-Article</a>
+              </div>
+              <br>
+              <!-- One sentence description -->
+              <div id="indexWorkText">
+                Co-founder and Electrical-Software team lead for AUVMEC-2020. Designed and developed the
+                electronics and control subsystem for the AUV. Implemented high-level
+                control algorithms and safety systems with sensors for the semi-autonomous vehicle.
+              </div>
+              <br>
+              <br>
+            </td>
+          </tr>
+
+          <!-- Work -->
+        <tbody>
+          <tr style="border-bottom:1px solid #e5e5e5;">
+            <!-- IMAGE -->
+            <td>
+              <img class="workPicture" src="images/OpenGL-IMU.gif" alt="OpenGL IMU">
+            </td>
+
+            <!-- TITLE AND INFO -->
+            <td>
+              <br>
+              <div id="indexWorkText">
+                <!-- Title + Link -->
+                <b>IMU Orientation Visualization using OpenGL</b>
+                <br>
+              </div>
+              <br>
+              <!-- One sentence description -->
+              <div id="indexWorkText">
+                Wrote a simple tool that uses OpenGL and a serial interface with a RP-2040 mcu with an imu to visualize
+                the current orientation of the imu-board/device.
+              </div>
+              <br>
+
+              <br>
+              <br>
+            </td>
+          </tr>
+
+          <!-- Work -->
+        <tbody>
+          <tr style="border-bottom:1px solid #e5e5e5;">
+            <!-- IMAGE -->
+            <td>
+              <img class="workPicture" src="images/ST_PLT.gif" alt="Gough-Stewart-Platform">
+            </td>
+
+            <!-- TITLE AND INFO -->
+            <td>
+              <br>
+              <div id="indexWorkText">
+                <!-- Title + Link -->
+                <b>A Self Balancing Gough-Stewart Platform</b>
+                <br>
+              </div>
+              <br>
+              <!-- One sentence description -->
+              <div id="indexWorkText">
+                A 6-axis Parallel <i>Gough-Stewart Platform</i> robot that can self-orient itself to counter gravity.
+              </div>
+              <br>
+              <br>
+              <br>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+
+    </section>
+    <footer>
+      <p>
+        <small>
+          Inspired by <a href="https://github.com/orderedlist/minimal">minimal</a>.
+          And hosted on GitHub Pages. <br>
+          &copy; Suresh Kondepudi 2023
+        </small>
+      </p>
+    </footer>
+  </div>
+  <script src="scripts/scale.fix.js"></script>
+</body>
+
 </html>
