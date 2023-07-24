@@ -1,13 +1,15 @@
 {
-    "contact": "",
-    "templates": [
-      {
-        "name": "Makima",
-        "sources": ["https://i.imgur.com/aGUSMTl.png", ""],
-        "x": 382,
-        "y": 841
-      }
-    ],
-    "whitelist": [],
-    "blacklist": []
-  }
+  "contact": "skrish. on discord",
+  "templates": [
+    {
+      "name": "makima",
+      "sources": [
+        "https://i.imgur.com/aGUSMTl.png"
+      ],
+      "x": 382,
+      "y": 841
+    }
+  ],
+  "whitelist": [],
+  "blacklist": []
+}
