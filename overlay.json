@@ -1,0 +1,13 @@
+{
+    "contact": "",
+    "templates": [
+      {
+        "name": "Makima",
+        "sources": ["https://i.imgur.com/aGUSMTl.png", ""],
+        "x": 382,
+        "y": 841
+      }
+    ],
+    "whitelist": [],
+    "blacklist": []
+  }
