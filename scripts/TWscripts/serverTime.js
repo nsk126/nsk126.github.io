@@ -25,7 +25,7 @@ function updateDuplicateTime() {
 
 // Call updateDuplicateTime initially and set an interval to update periodically
 updateDuplicateTime();
-setInterval(updateDuplicateTime, 50); // Update every 50ms
+setInterval(updateDuplicateTime, 100); // Update every 50ms
 
 // Variables for drag functionality
 let isDragging = false;
